@@ -55,7 +55,7 @@
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".About"
             android:label="About"
-            android:parentActivityName=".About">
+            android:parentActivityName=".MainActivity">
         </activity>
 
 

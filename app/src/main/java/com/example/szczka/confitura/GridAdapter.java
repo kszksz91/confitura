@@ -33,7 +33,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
         EndangeredItem nama = new EndangeredItem();
 
         nama.setName("Platinium Partner");
-        nama.setThumbnail(R.drawable.volvo);
+        nama.setThumbnail(R.drawable.colibra);
         mItems.add(nama);
 
         nama = new EndangeredItem();

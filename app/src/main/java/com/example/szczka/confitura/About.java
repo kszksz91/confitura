@@ -18,4 +18,6 @@ public class About extends AppCompatActivity {
         toolbar.setLogo(R.drawable.logo);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
+
 }

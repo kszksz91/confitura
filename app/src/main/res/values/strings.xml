@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name"></string>
 
+
+<string name="platinium_partner">Paltinium Partner</string>
+    <string name="linktosite">
+        <a href="http://www.volvo.com">Volvo</a>
+    </string>
 </resources>

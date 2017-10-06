@@ -33,17 +33,17 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
         EndangeredItem nama = new EndangeredItem();
 
         nama.setName("Platinium Partner");
-        nama.setThumbnail(R.drawable.colibra);
+        nama.setThumbnail(R.drawable.volvo);
         mItems.add(nama);
 
         nama = new EndangeredItem();
-        nama.setName("");
-        nama.setThumbnail(R.drawable.colibra);
+        nama.setName("Platinium Partner");
+        nama.setThumbnail(R.drawable.delaval);
         mItems.add(nama);
 
         nama = new EndangeredItem();
         nama.setName("Gold Partner");
-        nama.setThumbnail(R.drawable.colibra);
+        nama.setThumbnail(R.drawable.ocando);
         mItems.add(nama);
 
         nama = new EndangeredItem();
@@ -53,11 +53,11 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
 
         nama = new EndangeredItem();
         nama.setName("Gold Partner");
-        nama.setThumbnail(R.drawable.colibra);
+        nama.setThumbnail(R.drawable.datax);
         mItems.add(nama);
 
         nama = new EndangeredItem();
-        nama.setName("Bronze Partner");
+        nama.setName("Gold Partner");
         nama.setThumbnail(R.drawable.colibra);
         mItems.add(nama);
 
@@ -73,12 +73,12 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
 
         nama = new EndangeredItem();
         nama.setName("Partner");
-        nama.setThumbnail(R.drawable.colibra);
+        nama.setThumbnail(R.drawable.wro);
         mItems.add(nama);
 
         nama = new EndangeredItem();
         nama.setName("Partner");
-        nama.setThumbnail(R.drawable.colibra);
+        nama.setThumbnail(R.drawable.wro_2);
         mItems.add(nama);
 
 

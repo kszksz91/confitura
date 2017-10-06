@@ -32,7 +32,6 @@
     </android.support.design.widget.AppBarLayout>
 
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="350dp"
@@ -42,8 +41,8 @@
         android:layout_marginTop="100dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:srcCompat="@drawable/pwr2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pwr2" />
 
     <TextView
         android:id="@+id/textView3"

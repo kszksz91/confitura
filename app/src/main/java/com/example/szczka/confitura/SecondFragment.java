@@ -40,16 +40,17 @@ public class SecondFragment extends Fragment {
     protected String[] mDataset, mDataset2;
     protected int[] mDataset3;
 
-    int [] icon = {R.drawable.piotr,R.drawable.iga,R.drawable.marcin, R.drawable.marcinmnich,R.drawable.piotr,R.drawable.iga, R.drawable.marcin,R.drawable.wud,R.drawable.wud, R.drawable.wud};
-    String [] text1 = {"Piotr Wojciechowski","Iga Mościchowska","Marcin Wichrowski","Marcin Mnich","Piotr Wojciechowski","Iga Mościchowska","Marcin Wichrowski"};
+    int [] icon = {R.drawable.piotr,R.drawable.iga,R.drawable.marcin, R.drawable.domi,R.drawable.krzysztoff,R.drawable.lisa, R.drawable.julia, R.drawable.krzysztof};
+    String [] text1 = {"Piotr Wojciechowski","Iga Mościchowska","Marcin Wichrowski","Dominika Sobolewska","Krzysztof Kubasek","Lisa Apers","Julia Falkowska","Krzysztof Piwowar"};
     String [] description = {
             "Założyciel Fuzers. Przedsiębiorca i projektant usług z zamiłowaniem do projektów z zakresu projektowania doświadczeń użytkowników (customer experience design). Inicjator oraz w latach 2012-2017 organizator jednego z największych TEDxów w Polsce - TEDxLublin oraz od 2016 roku jeden z europejskich ambasadorów programu TEDx. ",
             "Projektantka interakcji i badaczka z 10-letnim doświadczeniem, trener biznesu, obecnie wspiera firmy w rozwoju kompetencji UX ich zespołów. Współautorka bestsellerowej książki \"Badania jako podstawa projektowania user experience, wydanej przez wydawnictwo PWN. Opiekun merytoryczny studiów podyplomowych User Experience & Product Design na AGH w Krakowie",
-            "Marcin Wichrowski - Wykładowca w Katedrze Multimediów w Polsko-Japońskiej Akademii Technik Komputerowych w Warszawie, absolwent Wydziału Informatyki tej samej uczelni. Specjalizuje się w zagadnieniach Human-Computer Interaction, Augmented Reality oraz Interactive Digital Storytelling. Certyfikowany ekspert programów Adobe (ACE).",
-            "Marcin Mnich -  Marcin Mnich Wrocławski UX Designer skupiający się na projektowaniu czystych i funkcjonalnych aplikacji w ścisłej współpracy z użytkownikami, badaczami oraz deweloperami. Specjalizujący się w usability, prototypowaniu oraz architekturze informacji. Aktualnie szczęśliwy UX Designer w Opera Software oraz pasjonat VR.",
-            "Piotr Wojciechowski - Założyciel Fuzers. Przedsiębiorca i projektant usług z zamiłowaniem do projektów z zakresu projektowania doświadczeń użytkowników (customer experience design). Inicjator oraz w latach 2012-2017 organizator jednego z największych TEDxów w Polsce - TEDxLublin oraz od 2016 roku jeden z europejskich ambasadorów programu TEDx. ",
-            "Iga Mościchowska - Projektantka interakcji i badaczka z 10-letnim doświadczeniem, trener biznesu, obecnie wspiera firmy w rozwoju kompetencji UX ich zespołów. Współautorka bestsellerowej książki \"Badania jako podstawa projektowania user experience, wydanej przez wydawnictwo PWN. Opiekun merytoryczny studiów podyplomowych User Experience & Product Design na AGH w Krakowie",
-            "Marcin Wichrowski - Wykładowca w Katedrze Multimediów w Polsko-Japońskiej Akademii Technik Komputerowych w Warszawie, absolwent Wydziału Informatyki tej samej uczelni. Specjalizuje się w zagadnieniach Human-Computer Interaction, Augmented Reality oraz Interactive Digital Storytelling. Certyfikowany ekspert programów Adobe (ACE).",
+            "Wykładowca w Katedrze Multimediów w Polsko-Japońskiej Akademii Technik Komputerowych w Warszawie, absolwent Wydziału Informatyki tej samej uczelni. Specjalizuje się w zagadnieniach Human-Computer Interaction, Augmented Reality oraz Interactive Digital Storytelling. Certyfikowany ekspert programów Adobe (ACE).",
+            "Artystka, projektant, nauczyciel akademicki na Wydziale Architektury Wnętrz i Wzornictwa w Akademii Sztuk Pięknych im. E. Gepperta we Wrocławiu, gdzie od 4 lat prowadzi Pracownię Projektowania Obiektów Multimedialnych i Interaktywnych przy Centrum Sztuk Użytkowych.",
+            "Projektant produktów codziennego użytku, doktorant oraz wykładowca Wrocławskiej Akademii Sztuk Pięknych im Eugeniusza Gepperta oraz Poznańskiej School Of Form. Absolwent Wrocławskiej Akademii Sztuk Pięknych w Katedrze Architektury Wnętrz i Wzornictwa Przemysłowego.",
+            "Projektantka. Pracowała dla Copenhagen Institute of Interaction Design. Atywna na scenie startupowej od kilku lat. Uwielbia odkrywać równowagę między psychologią a światem cyfrowym, przy czym nie zapomina o użytkownikach.  ",
+            "Ekspertka z ponad 10-letnim doświadczeniem w realizacji badań usability i badań marketingowych. Doktorantka i pracownik Laboratorium Human Computer Interaction na Politechnice Wrocławskiej.",
+            "Od ponad 12 lat działa w obszarze digital. Na co dzień pomaga definiować, budować oraz dostarczać produkty i usługi, które łączą potrzeby ludzi i biznesu."
     };
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -60,9 +60,9 @@ public class FourthFragment extends Fragment implements OnMapReadyCallback {
 
         mGoogleMap = googleMap;
         googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-
-        googleMap.addMarker(new MarkerOptions().position(new LatLng(40.689247, -74.044502)).title("statue") .snippet("I hope"));
-        CameraPosition Liberty = CameraPosition.builder().target(new LatLng(40.689247, -74.044502)).zoom(16).bearing(0).tilt(45).build();
+//direction
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(51.106854, 17.044107)).title("statue") .snippet("I hope"));
+        CameraPosition Liberty = CameraPosition.builder().target(new LatLng(51.106854, 17.044107)).zoom(16).bearing(0).tilt(45).build();
         googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(Liberty));
     }
 

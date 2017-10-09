@@ -1,5 +1,7 @@
 package com.example.szczka.confitura;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,6 +36,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
 
         nama.setName("Platinium Partner");
         nama.setThumbnail(R.drawable.volvo);
+        nama.setUrl("https://www.volvocars.com/pl");
         mItems.add(nama);
 
         nama = new EndangeredItem();
@@ -97,9 +100,25 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
-        EndangeredItem nature = mItems.get(i);
+        final EndangeredItem nature = mItems.get(i);
         viewHolder.tvspecies.setText(nature.getName());
         viewHolder.imgThumbnail.setImageResource(nature.getThumbnail());
+
+        // Podpinamy onClick do zrobienia linków
+        if(nature.getUrl().length() > 0) {
+            View.OnClickListener listener = new View.OnClickListener() {
+                public void onClick(View v) {
+                    Intent intent = new Intent();
+                    intent.setAction(Intent.ACTION_VIEW);
+                    intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                    intent.setData(Uri.parse(nature.getUrl()));
+                    v.getContext().startActivity(intent);
+                }
+            };
+
+            viewHolder.tvspecies.setOnClickListener(listener);
+            viewHolder.imgThumbnail.setOnClickListener(listener);
+        }
     }
 
     @Override
@@ -118,7 +137,6 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
             super(itemView);
             imgThumbnail = (ImageView)itemView.findViewById(R.id.img_thumbnail);
             tvspecies = (TextView)itemView.findViewById(R.id.status);
-
         }
     }
 

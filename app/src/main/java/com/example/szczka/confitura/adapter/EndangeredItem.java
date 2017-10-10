@@ -1,7 +1,7 @@
 package com.example.szczka.confitura.adapter;
 
 public class EndangeredItem {
-    private String mName;
+    private String mName, mUrl = "";
     private int mThumbnail;
 
     public String getName() {
@@ -18,5 +18,13 @@ public class EndangeredItem {
 
     public void setThumbnail(int thumbnail) {
         this.mThumbnail = thumbnail;
+    }
+
+    public String getUrl() {
+        return mUrl;
+    }
+
+    public void setUrl(String mUrl) {
+        this.mUrl = mUrl;
     }
 }
